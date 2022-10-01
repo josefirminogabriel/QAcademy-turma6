@@ -4,11 +4,10 @@ import javax.swing.*;
 import java.util.jar.JarOutputStream;
 
 public class exec4 {
-    public static void main(String[] args) {
-       int num1, result;
-       num1= Integer.parseInt(JOptionPane.showInputDialog("digite um numero"));
-    result= num1*2;
-        System.out.println("O dobro é: " + result);
+    public String dobro(int n1) {
+       int result = n1 * 2;
+    result= n1*2;
+        return "O dobro é: " + result;
     }
 }
 
