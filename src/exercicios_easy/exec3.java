@@ -1,14 +1,10 @@
 package exercicios_easy;
 
-import javax.swing.*;
-
 public class exec3 {
-    public static void main(String[] args) {
-        String nome;
-        String sobrenome;
-        nome= JOptionPane.showInputDialog("nome ");
-        sobrenome= JOptionPane.showInputDialog("Sobrenome ");
-        System.out.println("o nome é: " + sobrenome +" "+ nome);
+    public String nomeSobrenome(String nome, String sobrenome) {
+
+
+        return "o nome é: " + sobrenome + " " + nome;
     }
 }
 
