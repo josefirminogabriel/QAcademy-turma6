@@ -1,9 +1,6 @@
 package main;
 
-import exercicios_easy.exec2;
-import exercicios_easy.exec3;
-import exercicios_easy.exec4;
-import exercicios_easy.exec6;
+import exercicios_easy.*;
 
 public class execucao {
     public static void main(String[] args) {
@@ -16,9 +13,13 @@ public class execucao {
 //                exec3 exec3 = new exec3();
 //        System.out.println(exec3.nomeSobrenome("gabriel","firmino"));
 
-        exercicios_easy.
-                exec4 exec4 =new exec4();
-        System.out.println(exec4.dobro(5));
+//        exercicios_easy.
+////                exec4 exec4 =new exec4();
+////        System.out.println(exec4.dobro(5));
+
+
+        exec5 exec5 = new exec5();
+        System.out.println(exec5.valores(5, 7,6));
     }
 
 }
